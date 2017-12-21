@@ -1,0 +1,34 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-accumdir		/home/alex/repos/speech/an4/bwaccumdir/an4_buff_1,
+-constE		3.0	3.000000e+00
+-dcountfn		
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		
+-inmixwfn		
+-invarfn		
+-meanfn			/home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/means
+-mixwfn			/home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/mixture_weights
+-mmie		no	no
+-oaccumdir		
+-regmatfn		
+-tiedvar	no	no
+-tmatfn			/home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/transition_matrices
+-varfn			/home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/variances
+
+INFO: main.c(207): Reading and accumulating counts from /home/alex/repos/speech/an4/bwaccumdir/an4_buff_1
+INFO: s3mixw_io.c(117): Read /home/alex/repos/speech/an4/bwaccumdir/an4_buff_1/mixw_counts [201x1x2 array]
+INFO: s3tmat_io.c(118): Read /home/alex/repos/speech/an4/bwaccumdir/an4_buff_1/tmat_counts [34x3x4 array]
+INFO: s3gau_io.c(386): Read /home/alex/repos/speech/an4/bwaccumdir/an4_buff_1/gauden_counts with means with vars (2pass) [201x1x2 vector arrays]
+INFO: main.c(321): -2passvar yes
+INFO: main.c(391): Normalizing mean for n_mgau= 201, n_stream= 1, n_density= 2
+INFO: main.c(414): Normalizing var
+INFO: s3mixw_io.c(233): Wrote /home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/mixture_weights [201x1x2 array]
+INFO: s3tmat_io.c(176): Wrote /home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/transition_matrices [34x3x4 array]
+INFO: s3gau_io.c(228): Wrote /home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/means [201x1x2 array]
+INFO: s3gau_io.c(228): Wrote /home/alex/repos/speech/an4/model_parameters/an4.cd_cont_20/variances [201x1x2 array]
+Wed Dec 20 23:52:31 2017
+Current Overall Likelihood Per Frame = -148.733979998972
+Convergence ratio = 0.410222747709128

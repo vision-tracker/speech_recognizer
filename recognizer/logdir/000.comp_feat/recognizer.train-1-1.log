@@ -1,0 +1,190 @@
+Current configuration:
+[NAME]			[DEFLT]		[VALUE]
+-alpha			0.97		9.700000e-01
+-argfile				
+-blocksize		2048		2048
+-build_outdirs		yes		yes
+-c					/home/alex/repos/speech/recognizer/etc/recognizer_train.fileids
+-cep2spec		no		no
+-di					/home/alex/repos/speech/recognizer/wav
+-dither			no		no
+-do					/home/alex/repos/speech/recognizer/feat
+-doublebw		no		no
+-ei					wav
+-eo					mfc
+-example		no		no
+-frate			100		100
+-help			no		no
+-i					
+-input_endian		little		little
+-lifter			0		22
+-logspec		no		no
+-lowerf			133.33334	1.300000e+02
+-mach_endian		little		little
+-mswav			no		yes
+-ncep			13		13
+-nchans			1		1
+-nfft			512		512
+-nfilt			40		25
+-nist			no		no
+-npart			0		1
+-nskip			0		0
+-o					
+-ofmt			sphinx		sphinx
+-part			0		1
+-raw			no		no
+-remove_dc		no		no
+-remove_noise		yes		yes
+-remove_silence		yes		yes
+-round_filters		yes		yes
+-runlen			-1		-1
+-samprate		16000		1.600000e+04
+-seed			-1		-1
+-smoothspec		no		no
+-spec2cep		no		no
+-sph2pipe		no		no
+-transform		legacy		dct
+-unit_area		yes		yes
+-upperf			6855.4976	6.800000e+03
+-vad_postspeech		50		50
+-vad_prespeech		20		20
+-vad_startspeech	10		10
+-vad_threshold		2.0		2.000000e+00
+-verbose		no		no
+-warp_params				
+-warp_type		inverse_linear	inverse_linear
+-whichchan		0		0
+-wlen			0.025625	2.562500e-02
+
+INFO: sphinx_fe.c(967): Processing all remaining utterances at position 0
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ab08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ab08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ab11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ab11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ab12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ab12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ab13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ab13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ab14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ab14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ae08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ae08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ae11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ae11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ae12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ae12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ae13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ae13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ae14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ae14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ak08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ak08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ak11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ak11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ak12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ak12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ak13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ak13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ak14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ak14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ba08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ba08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ba11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ba11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ba12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ba12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ba13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ba13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ba14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ba14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ma08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ma08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ma11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ma11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ma12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ma12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ma13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ma13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ma14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ma14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamu08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamu08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamu11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamu11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamu12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamu12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamu13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamu13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamu14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamu14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/sonamun08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/sonamun08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamun11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamun11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamun12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamun12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamun13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamun13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/sonamun14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/sonamun14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/ya08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/ya08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ya11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ya11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ya12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ya12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ya13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ya13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/ya14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/ya14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yee08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yee08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yee11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yee11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yee12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yee12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yee13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yee13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yee14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yee14.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo00.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo00.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo01.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo01.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo02.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo02.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo03.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo03.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo04.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo04.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo05.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo05.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo06.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo06.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo07.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo07.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_1/yo08.wav to /home/alex/repos/speech/recognizer/feat/speaker_1/yo08.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yo11.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yo11.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yo12.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yo12.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yo13.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yo13.mfc
+INFO: sphinx_fe.c(787): Converting /home/alex/repos/speech/recognizer/wav/speaker_2/yo14.wav to /home/alex/repos/speech/recognizer/feat/speaker_2/yo14.mfc
+Wed Dec 20 23:51:28 2017

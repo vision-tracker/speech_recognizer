@@ -1,0 +1,65 @@
+Language model created by QuickLM on Wed Dec 20 09:14:06 EST 2017
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 10 sentences and 12 words
+
+\data\
+ngram 1=12
+ngram 2=20
+ngram 3=10
+
+\1-grams:
+-0.7782 </s> -0.3010
+-0.7782 <s> -0.2218
+-1.7782 AB -0.2218
+-1.7782 AE -0.2218
+-1.7782 AK -0.2218
+-1.7782 BA -0.2218
+-1.7782 MA -0.2218
+-1.7782 SONAMU -0.2218
+-1.7782 SONAMUN -0.2218
+-1.7782 YA -0.2218
+-1.7782 YEE -0.2218
+-1.7782 YO -0.2218
+
+\2-grams:
+-1.3010 <s> AB 0.0000
+-1.3010 <s> AE 0.0000
+-1.3010 <s> AK 0.0000
+-1.3010 <s> BA 0.0000
+-1.3010 <s> MA 0.0000
+-1.3010 <s> SONAMU 0.0000
+-1.3010 <s> SONAMUN 0.0000
+-1.3010 <s> YA 0.0000
+-1.3010 <s> YEE 0.0000
+-1.3010 <s> YO 0.0000
+-0.3010 AB </s> -0.3010
+-0.3010 AE </s> -0.3010
+-0.3010 AK </s> -0.3010
+-0.3010 BA </s> -0.3010
+-0.3010 MA </s> -0.3010
+-0.3010 SONAMU </s> -0.3010
+-0.3010 SONAMUN </s> -0.3010
+-0.3010 YA </s> -0.3010
+-0.3010 YEE </s> -0.3010
+-0.3010 YO </s> -0.3010
+
+\3-grams:
+-0.3010 <s> AB </s>
+-0.3010 <s> AE </s>
+-0.3010 <s> AK </s>
+-0.3010 <s> BA </s>
+-0.3010 <s> MA </s>
+-0.3010 <s> SONAMU </s>
+-0.3010 <s> SONAMUN </s>
+-0.3010 <s> YA </s>
+-0.3010 <s> YEE </s>
+-0.3010 <s> YO </s>
+
+\end\

@@ -1,0 +1,69 @@
+Current configuration:
+[NAME]		[DEFLT]	[VALUE]
+-dcountfn		/home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/mixture_weights
+-example	no	no
+-fullvar	no	no
+-help		no	no
+-inmeanfn		/home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/means
+-inmixwfn		/home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/mixture_weights
+-invarfn		/home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/variances
+-ninc		1	1
+-outmeanfn		/home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont_initial/means
+-outmixwfn		/home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont_initial/mixture_weights
+-outvarfn		/home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont_initial/variances
+
+INFO: main.c(86): Reading mixing weight file /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/mixture_weights.
+INFO: s3mixw_io.c(117): Read /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/mixture_weights [45x1x1 array]
+INFO: s3gau_io.c(169): Read /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/means [45x1x1 array]
+INFO: s3gau_io.c(169): Read /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/variances [45x1x1 array]
+INFO: s3gau_io.c(553): Read /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont/mixture_weights [45x1x1 array]
+INFO: main.c(151): output n_density == 2
+0:0(1.55e+03)
+1:0(3.17e+03)
+2:0(1.81e+03)
+3:0(2.75e+02)
+4:0(2.07e+02)
+5:0(9.35e+02)
+6:0(4.08e+01)
+7:0(4.92e+01)
+8:0(5.43e+01)
+9:0(6.04e+01)
+10:0(7.64e+01)
+11:0(1.55e+02)
+12:0(5.06e+01)
+13:0(7.31e+01)
+14:0(3.26e+02)
+15:0(3.90e+01)
+16:0(7.12e+01)
+17:0(1.44e+02)
+18:0(7.05e+01)
+19:0(5.04e+01)
+20:0(3.36e+02)
+21:0(1.58e+02)
+22:0(8.03e+01)
+23:0(2.94e+02)
+24:0(7.55e+01)
+25:0(1.32e+02)
+26:0(2.81e+02)
+27:0(1.17e+02)
+28:0(1.08e+02)
+29:0(1.09e+02)
+30:0(1.30e+02)
+31:0(7.81e+01)
+32:0(2.30e+02)
+33:0(5.44e+01)
+34:0(7.18e+01)
+35:0(2.23e+02)
+36:0(3.45e+01)
+37:0(6.77e+01)
+38:0(1.07e+02)
+39:0(6.54e+02)
+40:0(6.11e+01)
+41:0(4.00e+01)
+42:0(1.86e+02)
+43:0(2.12e+02)
+44:0(1.88e+02)INFO: s3mixw_io.c(233): Wrote /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont_initial/mixture_weights [45x1x2 array]
+INFO: s3gau_io.c(228): Wrote /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont_initial/means [45x1x2 array]
+INFO: s3gau_io.c(228): Wrote /home/alex/repos/speech/recognizer/model_parameters/recognizer.ci_cont_initial/variances [45x1x2 array]
+
+Wed Dec 20 23:51:29 2017
